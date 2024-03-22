@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+<div class="first-greet">
+    <h2>Website for your blogs... ❤️💕</h2>
+</div>
+
+
+<% if(blogs.length > 0){ %>
+    <% blogs.forEach(function(blog){%>
+        <div class="blogs-page">
+            <hr>
+            <h2 ><%= blog.title %></h2>
+            <p><%= blog.content %></p><br>
+        </div>
+        <% }); %>
+    <%}else{ %>
+        <div class="first-image">
+            <img src="images/Boy-with-a-dog.jpeg" alt="Boy with dog cartoon"/>
+        </div>
+        <div class="first-info">
+            <h3>Seems like no blogs are available! 🥲</h3>
+            <p>Click on Create to publish yours...</p>
+        </div>
+        
+        <% } %>
+    
+<%- include("partials/footer.ejs") %>

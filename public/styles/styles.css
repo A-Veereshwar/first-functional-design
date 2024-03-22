@@ -1,0 +1,192 @@
+body{
+    position: relative;
+    background-color: rgb(228, 223, 223) !important;
+    color: #333;
+}
+.first-greet{
+    width:100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #92bae1;
+}
+.first-greet > h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vh;
+    text-align: center;/*#A6BDE0*/
+}
+.nav-item{
+    font-weight: bold;
+    text-align: center;
+    height:40px;
+    width: 80px;
+    margin-top: 3px;
+    border-radius: 10%;
+}
+.first-image{
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    position: relative;
+    margin: 20px;
+}
+.first-image > img {
+    height: 60vh;
+    border-radius: 50%;
+}
+.first-info{
+    margin-top: 50px;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-title{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blogs-page{
+    margin-left: 25%;
+    width: 50%;
+    font-weight: 500;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+} 
+  
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    background-color: #af2f60;
+  }
+  .create-page{
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: lightblue;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 80vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.delete-page{
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: #525CEB;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 80vh;
+    width: 60%;
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+form > label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5em;   
+}
+form > input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    height: 40px;
+    width : 300px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+form > textarea{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+[type="submit"]{
+    margin-top: 20px;
+    height:30px;
+    width:80px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+@media(max-width : 860px){
+    .create-page{
+        border: 3px solid black;
+        border-radius: 5%;
+        background-color: lightblue;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 80vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .delete-page{
+        border: 3px solid black;
+        border-radius: 5%;
+        background-color: #525CEB;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 80vh;
+        width: 80vw;
+        display: flex;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    form > input{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        height: 8vh;
+        width : 40vw;
+        border: 2px solid black;
+        border-radius: 2%;
+    }
+    form > textarea{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        width: 50vw;
+        height: 40vh;
+        border: 2px solid black;
+        border-radius: 2%;
+    }
+    [type="submit"]{
+        margin-top: 20px;
+        height:30px;
+        width:80px;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+}
