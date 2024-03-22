@@ -11,7 +11,7 @@ ii) `npm install`
 -->You'll see a `node_modules` folder installed into the current project.
 Step 4:
 Set the console to current main directory by entering command:
-`$ cd currentdirectory address` 
+`$ cd "currentdirectory address"` 
 Step 5:
 Now, you can run the command `nodemon index.js` in the same gitbash console.
 It'll show 
